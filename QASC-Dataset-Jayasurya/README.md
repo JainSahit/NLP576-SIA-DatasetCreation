@@ -1,8 +1,8 @@
                                       CSE 576 Natural Language Processing
-Project Phase 2 � Automated Data Creation
+Project Phase 2 � Automated Data Creation
 Jayasurya Sevalur Mahendran | ASU ID: 1217399443 | E-mail ID: jsevalur@asu.edu
 Links:
-Entire Team�s submission can be found at: https://github.com/JainSahit/NLP576-SIA
+Entire Team�s submission can be found at: https://github.com/JainSahit/NLP576-SIA
 All the files can be found at: https://drive.google.com/drive/folders/1HCH6OYs6U56eNR5C03J_pOZW1TElDOYd?usp=sharing
 1.	Preprocessed Dataset and Results
 https://drive.google.com/drive/folders/1HCH6OYs6U56eNR5C03J_pOZW1TElDOYd?usp=sharing
@@ -34,4 +34,4 @@ https://colab.research.google.com/drive/1ndFdUtDpT_Wh-5kvhTiv0OoIh1MAp9A?usp=sha
 
    I had also experimented with various state of the art models to generate scores which can be found at
 https://colab.research.google.com/drive/1117iKWm6Vju8yVPFHq1s_nxpkVCbS0Cq?usp=sharing
- 
+ I tried various pre-trained STS models: • Custom BERT based STS model with a LR layer to generate STS scores, made by teammate Mihir for one of his earlier projects. https://colab.research.google.com/drive/1XpP3sb7k-VFrc42XR34gaMNbkV4E95cx?usp=sharing • Web STS BERT base. https://github.com/AndriyMulyar/semantic-text-similarity/tree/master/semantic_text_similarity • RoBERTa large pretrained on NLI dataset followed by STS B dataset pooling on mean tokens.  • BERT base pretrained on NLI dataset followed by STS B dataset pooling on mean tokens. • Clinical Bert  •AlBERT.
