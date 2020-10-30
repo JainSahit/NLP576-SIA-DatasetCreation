@@ -1,5 +1,5 @@
 
-Dataset:  HOTPOT QA Dataset.s
+Dataset:  HOTPOT QA Dataset
 
 First Phase:
 I  have  created  the following  dataframe from the HOTPOT QA dataset,
