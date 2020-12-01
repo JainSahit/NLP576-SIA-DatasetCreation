@@ -36,7 +36,7 @@ Consider the following sample data:
 "_id": "5a7a06935542990198eaf050", 
 "type": "comparison"}
 
-From this, I have extracted question, answer, set of candidate passages from the context, again from the context, i have extracted sentences and computed STS scores between <Q+A> and the every <sentence> of each candidate passage , finally   calculated the  average sia score for each  candidate passage in the context. 
+From this, I have extracted question, answer, set of candidate passages from the context, again from the context, i have extracted sentences and computed STS scores between <Q+A> and the every <sentence> of each candidate passage , finally   calculated the   sia score for each  candidate passage in the context  by taking the  max of all sia scores of the sentences. 
 
 Instructions to run the  code:
 
@@ -53,6 +53,10 @@ User Controls:
 
 
 Analysis and  Experiments:
+1)Experiment1  with average SIA score of all sentences for a candidate passage
+2)Experiment2 with keyphrases.
+3)Experiment3 Clinical model without keyphrases
+4)Experiment with other models
 
 Models:
 1) https://github.com/AndriyMulyar/semantic-text-similarity/tree/master/semantic_text_similarity 
